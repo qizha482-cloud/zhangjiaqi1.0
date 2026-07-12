@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#0f172a" />
+    
+    <!-- Security: Content Security Policy (CSP) - [Development/Local Environment Only] -->
+    <!-- NOTICE: Replace with strict headers or dynamic nonce (Option A/C) in production -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests; default-src 'self' https:; script-src 'self' https: 'unsafe-inline' 'unsafe-eval'; style-src 'self' https: 'unsafe-inline'; img-src 'self' https: data: blob:; font-src 'self' https: data:; connect-src 'self' https: ws: wss:; base-uri 'self'; form-action 'self';" />
+
+    <title>Zhaqi's Creative Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A high-fidelity 1:1 reproduction of a visual designer's portfolio featuring work experience and selected projects." />
+    <meta name="keywords" content="portfolio, visual designer, web developer, creative portfolio, Zhaqi" />
+    <meta name="author" content="Zhaqi" />
+    <link rel="canonical" href="https://qizha482-cloud.github.io/changtu/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Zhaqi's Creative Portfolio" />
+    <meta property="og:description" content="A high-fidelity 1:1 reproduction of a visual designer's portfolio featuring work experience and selected projects." />
+    <meta property="og:image" content="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Zhaqi's Portfolio Featured Image" />
+    <meta property="og:site_name" content="Zhaqi's Creative Portfolio" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Zhaqi's Creative Portfolio" />
+    <meta property="twitter:description" content="A high-fidelity 1:1 reproduction of a visual designer's portfolio featuring work experience and selected projects." />
+    <meta property="twitter:image" content="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+
+    <!-- Performance Optimization: Preconnect & Targeted Preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="modulepreload" href="data:application/octet-stream;base64,aW1wb3J0IHtTdHJpY3RNb2RlfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7Y3JlYXRlUm9vdH0gZnJvbSAncmVhY3QtZG9tL2NsaWVudCc7CmltcG9ydCBBcHAgZnJvbSAnLi9BcHAudHN4JzsKaW1wb3J0ICcuL2luZGV4LmNzcyc7CgpjcmVhdGVSb290KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb290JykhKS5yZW5kZXIoCiAgPFN0cmljdE1vZGU+CiAgICA8QXBwIC8+CiAgPC9TdHJpY3RNb2RlPiwKKTsK" />
+
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+    <link rel="shortcut icon" href="https://qizha482-cloud.github.io/changtu/butter-bear.png" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Zhaqi",
+      "jobTitle": "Visual Designer & Developer",
+      "url": "https://qizha482-cloud.github.io/changtu/",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Creative Portfolio"
+      }
+    }
+    </script>
+
+    <!-- Dynamic Theme Color Script -->
+    <script>
+      (function() {
+        try {
+          const themeColor = window.matchMedia('(prefers-color-scheme: dark)').matches ? '#0f172a' : '#ffffff';
+          const meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.content = themeColor;
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-BeboLfWe.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BmevBMNE.css">
+  </head>
+  <body>
+    <!-- Accessibility: Fallback for disabled JavaScript -->
+    <noscript>
+      <div style="font-family: system-ui, sans-serif; text-align: center; padding: 2rem; color: #f8fafc; background-color: #0f172a; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1 style="font-size: 1.8rem; font-weight: 600; margin-bottom: 0.75rem;">需要启用 JavaScript</h1>
+        <p style="color: #94a3b8; max-width: 400px; line-height: 1.5;">请在您的浏览器设置中启用 JavaScript 以完整体验 Zhaqi's Creative Portfolio 作品集。</p>
+      </div>
+    </noscript>
+
+    <!-- Accessibility Landmark -->
+    <div id="root" role="main" aria-live="polite"></div>
+  </body>
+</html>

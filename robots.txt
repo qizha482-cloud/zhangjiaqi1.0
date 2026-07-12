@@ -1,0 +1,6 @@
+# robots.txt for Zhaqi's Creative Portfolio
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://qizha482-cloud.github.io/changtu/sitemap.xml
