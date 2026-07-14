@@ -544,7 +544,7 @@ const ProjectModal = ({ project, onClose }: { project: Project | null, onClose: 
 export default function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [activeTab, setActiveTab] = useState('ALL');
-  const [avatar, setAvatar] = useState("https://qizha482-cloud.github.io/changtu/c30852094aef668c6a7940f545ec8acc.jpg");
+  const [avatar, setAvatar] = useState("/c30852094aef668c6a7940f545ec8acc.jpg");
   const filteredProjects = useMemo(() => {
     if (activeTab === 'ALL') return PROJECTS;
     const mapping: Record<string, string> = {

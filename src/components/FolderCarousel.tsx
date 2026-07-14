@@ -52,7 +52,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["加载性能 +45%", "响应耗时 <50ms", "设计还原度 100%"],
     author: "alpha_builder",
     count: "#01 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/butter-bear.png"
+    image: "/butter-bear.jpg"
   },
   {
     id: 2,
@@ -71,7 +71,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["视觉评分 9.8", "色彩丰富度 +40%", "加载效率优异"],
     author: "beta_flow",
     count: "#02 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/sweetie-party.png"
+    image: "/sweetie-party.jpg"
   },
   {
     id: 3,
@@ -90,7 +90,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["交互留存率 +35%", "视觉吸引力 100%", "支持无级缩放"],
     author: "gamma_core",
     count: "#03 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/good-luck-koi.png"
+    image: "/good-luck-koi.jpg"
   },
   {
     id: 4,
@@ -109,7 +109,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["渲染延迟 0.8ms", "线条边缘清晰度 +60%", "通过严苛测试"],
     author: "delta_eng",
     count: "#04 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/infinite-pi-1.png"
+    image: "/infinite-pi-1.jpg"
   },
   {
     id: 5,
@@ -128,7 +128,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["内存减少 50%", "滚动帧率 120 FPS", "适配低配机型"],
     author: "epsilon_doc",
     count: "#05 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/infinite-pi-2.png"
+    image: "/infinite-pi-2.jpg"
   },
   {
     id: 6,
@@ -147,7 +147,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["白屏时间 0ms", "转换成功率 99.4%", "美学评级 S+"],
     author: "zeta_dream",
     count: "#06 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/national-museum-ip.png"
+    image: "/national-museum-ip.jpg"
   },
   {
     id: 7,
@@ -166,7 +166,7 @@ const FOLDER_PROJECTS: FolderItem[] = [
     metrics: ["首屏加载 0.4s", "CPU 消耗 -30%", "画质无损展现"],
     author: "eta_ocean",
     count: "#07 / 007",
-    image: "https://qizha482-cloud.github.io/changtu/make-cute-friends.png"
+    image: "/make-cute-friends.jpg"
   }
 ];
 
